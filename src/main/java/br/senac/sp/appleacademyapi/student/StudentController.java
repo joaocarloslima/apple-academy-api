@@ -31,7 +31,6 @@ public class StudentController {
 
     @GetMapping
     public List<Student> getAll() {
-        System.err.println("getAll");
         return service.getAll();
     }
 

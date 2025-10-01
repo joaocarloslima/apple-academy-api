@@ -25,7 +25,7 @@ public class Cohort {
     private LocalDate startDate;
     private LocalDate endDate;
 
-    private CohortStatus status;
+    private CohortStatus status = CohortStatus.PENDING;
 
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updatedAt;
